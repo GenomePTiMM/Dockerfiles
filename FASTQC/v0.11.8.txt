@@ -8,7 +8,7 @@ LABEL software.version=”v0.11.5”
 LABEL about.documentation=”www.bioinformatics.babraham.ac.uk/projects/fastqc”
 LABEL about.summary=”fastqc_software.”
 LABEL about.tags=”RNA-seq;quality;control”
-LABEL maintainer=”ana.bica@medicina.ulisboa.pt”
+LABEL maintainer=”marta_bica”
 
 # install dependencies
 RUN apt-get update && apt-get install -y software-properties-common
